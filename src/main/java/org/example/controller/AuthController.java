@@ -78,4 +78,15 @@ public class AuthController {
             return ResponseEntity.badRequest().body(ApiResponse.error(exception.getMessage()));
         }
     }
+
+
+      @PostMapping("/google-auth")
+    public ResponseEntity<ApiResponse<AuthResponse>> googleAuth(@Valid @RequestBody GoogleAuthRequest googleAuthRequest){
+        try {
+            AuthResponse authResponse=userService.googleAuth(googleAuthRequest);
+            return ResponseEntity.ok(ApiResponse.success("Google Auth Success", authResponse));
+        }catch (Exception e){
+            return ResponseEntity.badRequest().body(ApiResponse.error(e.getMessage()));
+        }
+    }
 }
