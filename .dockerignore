@@ -1,0 +1,24 @@
+# Maven build output
+target/
+
+# Node build output
+node_modules/
+dist/
+build/
+
+# Git
+.git
+.gitignore
+
+# IDE / editor configs
+*.iml
+.idea/
+.vscode/
+
+# Logs
+*.log
+
+# Misc
+Dockerfile
+docker-compose.yml
+README.md
