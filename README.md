@@ -1,5 +1,5 @@
 ## 🌐 Live Project
-Live URL: **[https://trip-advisor-1-93pw.onrender.com/](https://trip-advisor-1-93pw.onrender.com/)**
+Live URL: **[https://celadon-bubblegum-b40307.netlify.app/](https://celadon-bubblegum-b40307.netlify.app/)**
 
 🌟 About the Project
 
